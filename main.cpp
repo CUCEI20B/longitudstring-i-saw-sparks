@@ -1,9 +1,12 @@
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main() {
-    cout << "Hola Mundo!" << endl; // eliminar esta línea
+    std::string cadena;
+
+    getline(cin, cadena);
+    std::cout<<cadena.size()<<std::endl;
+
 
     return 0;
 }
