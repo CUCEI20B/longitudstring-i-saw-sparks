@@ -4,7 +4,7 @@
 int main() {
     std::string cadena;
 
-    getline(cin, cadena);
+    getline(std::cin, cadena);
     std::cout<<cadena.size()<<std::endl;
 
 
